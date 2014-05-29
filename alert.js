@@ -1,3 +1,5 @@
 alert();
 
-window.setTimeout(function(){alert();}, 10);
+(function(){alert('hello');})();
+
+window.setTimeout(function(){alert('hello from timeout');}, 3000);
